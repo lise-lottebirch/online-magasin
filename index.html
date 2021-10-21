@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link rel="stylesheet" href="css/style.css">
+    <title>Maduniverset Aarhus C</title>
+</head>
+
+<body class="Page_body">
+    <!-- Logo -->
+    <a href="Index.html">
+        <img class="logo" src="images/logo.png" alt="Maduniverset Aarhus C logo">
+    </a>
+
+    <!-- Indhold -->
+<div class="baggrundsfarve"> 
+    <header>
+        <nav class="navigation_container">
+        <!-- Menu items -->
+            <div class="menuitems_container">
+                <div class="dropdown">
+                    <button class="dropbtn">Guide</button>
+                    <div class="dropdown-content">
+                      <a href="#">Kortoversigt</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Spisesteder</button>
+                    <div class="dropdown-content">
+                      <a href="#">Restauranter</a>
+                      <a href="#">Caféer</a>
+                      <a href="#">Bagerier</a>
+                      <a href="#">Brunch</a>
+                      <a href="#">Frokost</a>
+                      <a href="#">Aftensmad</a>
+                      <a href="#">Takeaway</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Bliv Inspireret</button>
+                    <div class="dropdown-content">
+                      <a href="#">Artikler</a>
+                      <a href="#">Anmeldelser</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Events</button>
+                    <div class="dropdown-content">
+                      <a href="#">Månendens Events</a>
+                      <a href="#">Kalenderoversigt</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Om Os</button>
+                    <div class="dropdown-content">
+                      <a href="#">Vores Koncept</a>
+                      <a href="#">Kontakt</a>
+                      <a href="#">Tip Os</a>
+                      <a href="#">Opret Profil</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Profil</button>
+                    <div class="dropdown-content">
+                      <a href="#">Mine Favoritter</a>
+                      <a href="#">Anmeld mit besøg</a>
+                      <a href="#">Tilmeld Nyhedsbreve</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!-- Det første afsnit med tre artikler -->
+    <div class="månedensartikler">
+        <h3>Nyheder</h3>  
+    </div>
+    <div class="main">
+        <div class="wrapper">
+            <div class="article1">
+                <a href="grillenburgerbar.html">
+                    <img src="images/burgerbar.jpeg" alt="burger" width="290px" height="200">
+                    <div class="tekstfelt">
+                        <h1>Guide: Grillen Burgerbar</h1>
+                        <p>Lad dig friste af Grillen Burgerbar, som tilbyder saftige kvalitetsburgere til en fornuftig pris.
+                        De tilbyder desuden 20 % på regningen, ved fremvisning ad studiekort.</p>
+                        <h6>Pris:</h6>
+                        <img src="images/stjerne1.png" alt="stjerne" width="40px">
+                        <img src="images/stjerne2.png" alt="stjerne" width="40px">
+                        <img src="images/stjerne2.png" alt="stjerne" width="40px">
+                        <h6>Bedømt:</h6>
+                        <img src="images/hjerte1.png" alt="hjerte" width="40px">
+                        <img src="images/hjerte1.png" alt="hjerte" width="40px">
+                        <img src="images/hjerte2.png" alt="hjerte" width="40px">
+                    </div>
+                </a> 
+            </div>
+            <div class="article2">
+                <a href="studievenlig.html">
+                    <img src="images/middag.png" alt="middag" width="290px" height="200">
+                    <div class="tekstfelt">
+                        <h1>Artikel: Fem SU-venlige spisesteder</h1>
+                        <p>Er prisen også med til at afgøre, hvor du tager hen og spiser?</p>
+                        <p>Frygt ej. 
+                        Vi har listet fem SU-venlige spisesteder op, som rammer et bredt udvalg af mad.*</p>
+                        <h6>*Priserne kræver studiekort</h6>
+                    </div>
+                </a> 
+            </div>
+            <div class="article3">
+                <a href="instaværdig.html">
+                    <img src="images/vin.jpeg" alt="vin" width="290px" height="200">
+                    <div class="tekstfelt">
+                        <h1>Artikel: Tre Instaværdige brunchsteder</h1>
+                        <p>Hver eneste dag bugner Instagram med lækre brunchbilleder, og hvis du vil gå all in på den fotogene mad, har vi listet tre instaværdige steder op. 
+                        Hvor det næsten er mere pinligt at have telefonen i lommen end ved bordet.</p>
+                    </div>
+                </a>
+            </div>
+        </div>    
+    </div>
+
+
+
+
+
+
+
+    <!-- Guide over spisestederne i Aarhus C, som kan kategoriseres efter ønske -->
+    <div class="personligguide">
+    <h3>Din Guide</h3>  
+
+    <div id="container2">
+        <div class="search-box2">
+          <input class="search-form-input2" type="search" name="search" placeholder="Pris ... ">
+          <details id="dropdown2" class="dropdown2">
+            <summary class="dropdown-button2">
+              <span id="selected-item2" class="selected-item2">vælg</span>
+            </summary>
+            <details-menu class="dropdown-menu2">
+              <div class="dropdown-menu-header2">Niveau</div>
+              <div class="dropdown-menu-list2">
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item" value="" checked>
+                  <span>Lav</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item" value="">
+                  <span>Mellem</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item" value="">
+                  <span>Høj</span>
+                </label>
+              </div>
+            </details-menu>
+          </details>
+        </div>
+      </div>
+
+      <div id="container2">
+        <div class="search-box2">
+          <input class="search-form-input2" type="search" name="search" placeholder="Hvad har du lyst til ... ">
+          <details class="dropdown2">
+            <summary class="dropdown-button2">
+              <span class="selected-item2">vælg</span>
+            </summary>
+            <details-menu class="dropdown-menu2">
+              <div class="dropdown-menu-header2">Forslag</div>
+              <div class="dropdown-menu-list2">
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item" checked>
+                  <span>Instaværdigt</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>SU-venligt</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Gourmet</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Grønt</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Street Food</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Vegetarisk</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Amerikansk</span>
+                </label>
+                 <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Dansk</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Fransk</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Græsk</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Italiensk</span>
+                </label>
+                <label class="dropdown-menu-item2">
+                  <input type="niveau" name="item">
+                  <span>Spansk</span>
+                </label>
+              </div>
+            </details-menu>
+          </details>
+        </div>
+      </div>
+
+
+
+    <!-- På kortet -->
+    <div class="findpåkortet">
+        <h3>Pa kortet</h3>  
+        <div class="søgefelt">
+            <a href="https://www.google.dk/maps"><h1>Søg efter restauranter i Aarhus C ...</h1></a>
+        </div>
+        <div class="inærheden">
+            <a href="https://www.google.dk/maps"><h1>Find spisesteder nær dig</h1></a>
+        </div>
+        <div class="kortet1">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d17776.08918632314!2d10.188828183742627!3d56.1569118603611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRestauranter!5e0!3m2!1sda!2sdk!4v1634245881768!5m2!1sda!2sdk" 
+            width="952" height="350" style="border: 0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <section>
+            <h3>Om Os</h3>
+            <ul>
+                <li>Vores Koncept</li>
+                <li>Kontakt</li>
+                <li>Tip Os</li>
+                <li>Opret en profil</li>
+            </ul>
+        </section>
+        <section>
+            <h3>Din Profil</h3>
+            <div class="footernyhedsbrev">
+                <p class="navn">Navn</p>
+                <a href="mailto:eksample@eksample.com"><p class="email">Email</p></a>
+                <p class="tilmelding"> <img src="images/login.png" alt="login ikon" width="17%"> Log In</p>
+            </div>
+        </section>
+        <section>
+            <h3>Følg os</h3>
+            <a href="https://www.facebook.com"><img src="images/facebookhvid.png" alt="facebook ikon" width="15%"></a>
+            <a href="https://www.instagram.com"><img src="images/instagramhvid.png" alt="instagram ikon" width="14.15%"></a>
+            <a href="https://twitter.com"><img src="images/twitterhvid.png" alt="twitter ikon" width="15%"></a>
+        </section>
+    </footer>
+
+
+
+</body>
+</html>

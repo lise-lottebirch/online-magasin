@@ -1,0 +1,703 @@
+
+/* Body, styling */
+
+/* General styling */
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Logo */
+
+.logo {
+    display: block;
+    margin: auto;
+    padding-top: 30px;
+    padding-right: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+
+/* Menubar */
+/* Dropdown menu */
+/* https://www.w3schools.com/howto/howto_js_dropdown.asp */
+
+.dropbtn {
+    background-color: #7c240c;
+    color: #d8bca5;
+    padding: 16px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+  }
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+
+.dropdown:hover .dropbtn {
+    background-color: #3f1408;
+  }
+
+
+.navigation_container{
+    background: #7c240c;
+    position: sticky;
+    top: 0;
+}
+
+
+
+
+
+
+
+/* De tre første indlæg */
+
+/* Overskiften */
+
+.månedensartikler h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Siden */
+
+.månedensartikler {
+    background-color: #d0c4b1;
+    padding-bottom: 70px;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    background-color: #d0c4b1;
+}
+
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    width: 960px;
+    display:block; 
+}
+
+.baggrundsfarve{
+        background-color: #d0c4b1;
+}
+
+
+/* Tekstfelterne */
+
+.tekstfelt a{
+    text-decoration: none;
+    color: white;
+}
+
+.tekstfelt {
+    color: #d8bca5;
+}
+
+
+
+
+
+/* Indholdet til de tre første artikler */
+
+/* Artikel 1 */
+
+.article1{
+    background-color: #312109;
+    /* background-image:url(img/logo_banner.png); */
+    width: 310px;
+    min-height: 600px;
+    display: block;
+    margin-right: 7.5px;
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.article1 h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.article1 img{
+    padding-top: 10px;
+}
+
+.article1 h6{
+    margin-bottom: 0;
+}
+
+
+/* Artikel 2 */
+
+.article2{
+    background-color: #312109;
+    /* background-image:url(img/logo_banner.png); */
+    width: 310px;
+    height: 600px;
+    display: block;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.article2 h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.article2 img{
+    padding-top: 10px;
+}
+
+.article2 h6{
+    margin-top: 160px;
+}
+
+
+/* Artikel 3 */
+
+.article3{
+    background-color: #312109;
+    /* background-image:url(img/logo_banner.png); */
+    width: 310px;
+    min-height: 600px;
+    display: block;
+    margin-left:7.5px;
+    margin-bottom: 20px;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.article3 h1 {
+    color: white;
+    font-size: 24px;
+}
+
+.article3 img{
+    padding-top: 10px;
+}
+
+
+
+
+
+
+/* Style til grillenburgerbar.html - Guide: Grillen Burgerbar */
+
+.artiklergrillen {
+    background-color: #d0c4b1;
+    justify-content: center;
+}
+
+.artiklergrillen h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tekstbokse section{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 40%;
+    margin: 2% auto;
+    margin-top: 40px;
+}
+
+.burgerbar{
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.kortet2 {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 40%;
+    margin: 2% auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.burgerbar img{
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.container2 {
+    display: flex;
+    justify-content: left;
+}
+    
+.foto2 {
+    flex-basis: 10%
+  }
+
+.text2 {
+    font-size: 17px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+ 
+
+
+
+/* Style til studievenlig.html - Artikel: Fem SU-venlige spisesteder */
+
+.artiklerstudie {
+    background-color: #d0c4b1;
+    justify-content: center;
+}
+
+.artiklerstudie h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info section {
+    float: left;
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+    width: 50%;
+    margin: 2% auto;
+    margin-top: 40px;
+}
+
+.info {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+    
+  .foto {
+    flex-basis: 20%
+  }
+  .text {
+    font-size: 17px;
+    padding-left: 10px;
+  }
+
+ 
+
+
+/* Style instaværdig.html - Artikel: Tre Instaværdige Brunchsteder */
+
+.ariklerbrunch {
+    background-color: #d0c4b1;
+    justify-content: center;
+}
+
+.ariklerbrunch h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brunch section {
+    float: left;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    width: 33.33%;
+    margin: 2% auto;
+    margin-top: 50px;
+    min-height: 400px;
+}
+
+
+.brunch {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Forsiden */
+
+/* Manuel-guide på forsiden */
+
+.personligguide h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Indsætning af dropdown searchbox */ 
+/* https://plantpot.works/3083 */
+
+#container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+}
+.search-box2 {
+  display: flex;
+  width: 400px;
+}
+.search-form-input2 {
+  -webkit-appearance: none;
+  appearance: none;
+  position: relative;
+  width: 75%;
+  height: 46px;
+  padding: 5px 20px 5px 40px;
+  border: none;
+  border-radius: 23px 0 0 23px;
+  background-image: url(ic_search.svg);
+  background-position: 15px center;
+  background-size: 18px;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  color: #7c240c;
+  font-size: 1.25rem;
+  outline: none;
+}
+.dropdown2 {
+  position: relative;
+  width: 25%;
+  height: 46px;
+}
+.dropdown2::before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  z-index: 999;
+  width: 1px;
+  height: 36px;
+  background-color: #7c240c;
+  content: '';
+}
+.dropdown-button2 {
+  list-style: none;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  border-radius: 0 23px 23px 0;
+  background-color: #fff;
+  color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+.dropdown-button2::-webkit-details-marker {
+  display:none;
+}
+.dropdown-button2 .selected-item2 {
+  color: #7c240c;
+  font-size: 1rem;
+}
+.dropdown2[open] .dropdown-button::before {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+}
+.dropdown-button2:after {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  width: 6px;
+  height: 6px;
+  border-right: 2px solid #7c240c;
+  border-bottom: 2px solid #7c240c;
+  content: '';
+}
+.dropdown-button2:hover:after {
+  border-right: 2px solid #7c240c;
+  border-bottom: 2px solid #7c240c;
+}
+.dropdown-menu2 {
+  position: absolute;
+  top: 55px;
+  right: 5px;
+  width: 160px;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, .1);
+  background-color: #fff;
+}
+.dropdown-menu-header2 {
+  padding-bottom: 4px;
+  border-bottom: 1px solid #7c240c;
+}
+.dropdown-menu-list2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+.dropdown-menu-item2 {
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+}
+.dropdown-menu-item2 input:checked + span,
+.dropdown-menu-item2:hover {
+  color: #7c240c;
+}
+.dropdown-menu-item2 input {
+  display: none;
+}
+
+
+
+
+
+
+/* Kortet på forsiden */
+
+.findpåkortet h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    width: 100%;
+    background-color: #ffffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.søgefelt,
+.inærheden {
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    color: white;
+    border-style: groove;
+    border-radius:30px;
+    background-color: #312109;
+    width: 30%;
+    display: inline-flex;
+    margin-left: 154px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+}
+
+.kortet1 {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    width: 100%;
+    height: 200PX;
+    background: #7c240c;
+    color: #d8bca5;
+    display: flex;
+}
+
+footer section {
+    float: left;
+    display: block;
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 33.33%;
+    
+    margin: 2% auto;
+}
+
+footer section h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+footer li {
+    text-align: left;
+    list-style: none;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+.navn, .email {
+    width: 100px;
+    height: 25px;
+    background-color: #ffffff;
+    border: solid #ffffff;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+}
+
+.footernyhedsbrev a{
+    text-decoration: none;
+}
+
+.tilmelding{
+    width: 100px;
+    height: 25px;
+    background-color: #ffffff;
+    border: solid #ffffff;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+/* Regler wide screen */
+@media screen and (min-width: 800px){
+    .menuitem{
+        width: 130px;
+    }
+    .menuitem:hover{
+        background: #3f1408;
+    }
+    .companylogo{
+        left: 10px;
+    }
+    .menuitems_container{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+
+
+
